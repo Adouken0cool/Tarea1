@@ -12,25 +12,16 @@ public class Main {
         int resultado;
         resultado = a + b+ c;
 
-        Coche miCoche = new Coche();
-        miCoche.addPuerta();
-        miCoche.addPuerta();
-        miCoche.addPuerta();
-        miCoche.addPuerta();
 
         System.out.println(resultado);
 
-        System.out.println(miCoche.Puerta);
 
-    }
-    static class Coche{
-        public int Puerta = 0;
-        public void addPuerta(){
-            this.Puerta++;
-        }
+
     }
 
     }
+
+
 
 
 
